@@ -21,3 +21,10 @@
    Added a click listener on each <span> X </span> and then used $(this).parent().remove()
       to delete the parent <li></li> from the DOM
    Add a fadeout when the item is deleted
+
+# Version 5: Section 20: Chapter 225: Todo List: Creating Todos
+   Learned how to add click listeners to a parent element, but have it only fire
+      on a certain child element.
+      $('ul').on('click', 'li', function() {})
+      We need this since we need to be able to click on li items that are added
+         to the page after it is loaded

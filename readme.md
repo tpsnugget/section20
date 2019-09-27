@@ -28,3 +28,14 @@
       $('ul').on('click', 'li', function() {})
       We need this since we need to be able to click on li items that are added
          to the page after it is loaded
+
+# Version 6: Section 20: Chapter 226: Todo List: Styling Part 1
+   Push container down
+   Add container background color
+   Add border (or box shadow)
+   Work on h1
+   Get rid of bullet points
+   Add Google font
+   Background color on the li's
+   Worked on the input
+   Add background color with gradient (got ahead of Colt here)

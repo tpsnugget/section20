@@ -16,3 +16,8 @@
 # Version 3: Section 20: Chapter 222: Todo List: Marking Completion
    Add the click listeners to the li's. I went ahead and used jQuery .toggleClass
       to line through the text and change the color to dark gray and back on click.
+
+# Version 4: Section 20: Chapter 223: Todo List: Deleting Todos
+   Added a click listener on each <span> X </span> and then used $(this).parent().remove()
+      to delete the parent <li></li> from the DOM
+   Add a fadeout when the item is deleted

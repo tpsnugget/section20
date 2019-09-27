@@ -1,9 +1,15 @@
 #container {
-   background: lightgray;
+   /* background: lightgray; */
+   border: 2px solid gray;
    width: 360px;
    margin: 0 auto;
 }
 
 h1 {
    background: lightblue;
+}
+
+.completed {
+   text-decoration: line-through;
+   color: darkgray;
 }

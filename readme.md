@@ -12,3 +12,7 @@
          <li> <span></span> </li>
       </ul>
    Did some basic css styling. Will save the rest of the styling for last.
+
+# Version 3: Section 20: Chapter 222: Todo List: Marking Completion
+   Add the click listeners to the li's. I went ahead and used jQuery .toggleClass
+      to line through the text and change the color to dark gray and back on click.

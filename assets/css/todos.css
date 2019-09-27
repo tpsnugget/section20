@@ -15,13 +15,20 @@ h1 {
    font-weight: normal;
 }
 
+.fa-plus {
+   float: right;
+}
+
 .completed {
    text-decoration: line-through;
    color: darkgray;
 }
 
 body {
-   background: linear-gradient(to right, lightblue, lightyellow);
+   background: #833ab4;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
    font-family: 'Roboto', sans-serif;
 }
 
@@ -51,11 +58,30 @@ input {
    box-sizing: border-box; /* The width and height properties include padding and
                               border, but not margin
                               Needs addition code for other browsers too */
-   color: #2980b9;          
+   color: #2980b9;        
+   border: 3px solid rgba(0, 0, 0, 0.0) /* Gets rid of the small gap when transitioning
+                                             from the input box to the first Todo */  
 }
 
 input:focus {
    background: #fff;
    border: 3px solid #2980b9;
    outline: none;
+}
+
+span {
+   background: #e74c3c;
+   height: 40px;
+   margin-right: 20px;
+   text-align: center;
+   color: white;
+   width: 0;
+   display: inline-block;
+   transition: 0.2s linear;
+   opacity: 0.0;
+}
+
+li:hover span {
+   width: 40px;
+   opacity: 1.0;
 }

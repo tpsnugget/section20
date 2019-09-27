@@ -39,3 +39,7 @@
    Background color on the li's
    Worked on the input
    Add background color with gradient (got ahead of Colt here)
+
+# Version 7: Section 20: Chapter 227: Todo List: Styling Part 2
+   Got the Instagram gradient from www.uigradient.com
+   Added in the plus and the garbage can

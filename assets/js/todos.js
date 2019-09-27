@@ -27,12 +27,11 @@ $('ul').on('click', 'span', function(e) {
 $('input[type="text"]').keypress(function(e) {
    // Checks to see if the enter key has been pressed
    if (e.which === 13) {
-      $('ul').append('<li><span>X</span> ' + $(this).val() + '</li>')
+      $('ul').append('<li><span><i class="fa fa-trash"></i></span> ' + $(this).val() + '</li>')
       $(this).val("")
    }
 })
 
-
-
-// This will toggle the input between display and hide
-// $('input').toggle()
+$('.fa-plus').on('click', function() {
+   $('input').toggle()
+})
